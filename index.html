@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<style type="text/css">
+			.container {
+				margin: 50px auto 100px auto;
+				width: 900px;
+			}
+			.box {
+				margin: 90px 0px 0px 0px;
+				border-top: 1px solid #ddd;
+				padding-top: 30px;
+			}
+			h2 {
+				margin: 0px 0px 30px 0px;
+			}
+			.person {
+				background: #666;
+				color: #fff;
+				margin: 3px;
+				display: block;
+				padding: 0em 0.2em;
+				overflow: hidden;
+			}
+			.name {
+				font-weight: bold;
+			}
+			.desc {
+				opacity: 0.5;
+			}
+
+#person9 { width:59.2621295601162px; height:11.8524259120232px; font-size:2.96310647800581px; }
+#person5 { width:61.4817045957576px; height:12.2963409191515px; font-size:3.07408522978788px; }
+#person11 { width:66.6333249958307px; height:13.3266649991661px; font-size:3.33166624979154px; }
+#person6 { width:68.7022561492707px; height:13.7404512298541px; font-size:3.43511280746353px; }
+#person8 { width:70.427267446636px; height:14.0854534893272px; font-size:3.5213633723318px; }
+#person10 { width:81.7312669668102px; height:16.346253393362px; font-size:4.08656334834051px; }
+#person2 { width:85.0881895447306px; height:17.0176379089461px; font-size:4.25440947723653px; }
+#person7 { width:86.4869932417586px; height:17.2973986483517px; font-size:4.32434966208793px; }
+#person4 { width:90.3327183250897px; height:18.0665436650179px; font-size:4.51663591625449px; }
+#person12 { width:290.516780926679px; height:58.1033561853358px; font-size:14.525839046334px; }
+#person3 { width:592.283715798434px; height:118.456743159687px; font-size:29.6141857899217px; }
+#person1 { width:829.457654133109px; height:165.891530826622px; font-size:41.4728827066554px; }
+#person28 { width:35.213633723318px; height:7.0427267446636px; font-size:1.7606816861659px; }
+#person24 { width:42.5205832509386px; height:8.50411665018772px; font-size:2.12602916254693px; }
+#person13 { width:43.3128156554154px; height:8.66256313108309px; font-size:2.16564078277077px; }
+#person29 { width:50.4777178564959px; height:10.0955435712992px; font-size:2.52388589282479px; }
+#person22 { width:55.208694967369px; height:11.0417389934738px; font-size:2.76043474836845px; }
+#person18 { width:59.0931468107766px; height:11.8186293621553px; font-size:2.95465734053883px; }
+#person16 { width:67.8232998312527px; height:13.5646599662505px; font-size:3.39116499156263px; }
+#person23 { width:78.7400787401181px; height:15.7480157480236px; font-size:3.93700393700591px; }
+#person20 { width:78.993670632526px; height:15.7987341265052px; font-size:3.9496835316263px; }
+#person15 { width:87.1779788708135px; height:17.4355957741627px; font-size:4.35889894354067px; }
+#person30 { width:88.7693640846886px; height:17.7538728169377px; font-size:4.43846820423443px; }
+#person21 { width:91.214034007931px; height:18.2428068015862px; font-size:4.56070170039655px; }
+#person14 { width:103.73041983912px; height:20.7460839678239px; font-size:5.18652099195598px; }
+#person17 { width:221.810730128188px; height:44.3621460256377px; font-size:11.0905365064094px; }
+#person27 { width:240.831891575846px; height:48.1663783151692px; font-size:12.0415945787923px; }
+#person26 { width:244.131112314674px; height:48.8262224629348px; font-size:12.2065556157337px; }
+#person25 { width:405.955662603689px; height:81.1911325207378px; font-size:20.2977831301844px; }
+#person19 { width:544.058820349418px; height:108.811764069884px; font-size:27.2029410174709px; }
+#person61 { width:4px; height:0.8px; font-size:0.2px; }
+#person35 { width:4.89897948556636px; height:0.979795897113271px; font-size:0.244948974278318px; }
+#person58 { width:5.65685424949238px; height:1.13137084989848px; font-size:0.282842712474619px; }
+#person60 { width:37.5233260785874px; height:7.50466521571749px; font-size:1.87616630392937px; }
+#person36 { width:41.7133072292284px; height:8.34266144584568px; font-size:2.08566536146142px; }
+#person39 { width:43.8634243989226px; height:8.77268487978452px; font-size:2.19317121994613px; }
+#person34 { width:45.2106182218293px; height:9.04212364436585px; font-size:2.26053091109146px; }
+#person33 { width:46.3465209050259px; height:9.26930418100518px; font-size:2.31732604525129px; }
+#person51 { width:48.7442304278158px; height:9.74884608556315px; font-size:2.43721152139079px; }
+#person48 { width:50.1198563445667px; height:10.0239712689133px; font-size:2.50599281722833px; }
+#person52 { width:51.9615242270663px; height:10.3923048454133px; font-size:2.59807621135332px; }
+#person41 { width:53.0282943342514px; height:10.6056588668503px; font-size:2.65141471671257px; }
+#person47 { width:63.0238050263549px; height:12.604761005271px; font-size:3.15119025131775px; }
+#person46 { width:64.1872261435249px; height:12.837445228705px; font-size:3.20936130717624px; }
+#person44 { width:64.8074069840786px; height:12.9614813968157px; font-size:3.24037034920393px; }
+#person62 { width:75.8946638440411px; height:15.1789327688082px; font-size:3.79473319220206px; }
+#person53 { width:79.7496081495075px; height:15.9499216299015px; font-size:3.98748040747538px; }
+#person43 { width:85.0881895447306px; height:17.0176379089461px; font-size:4.25440947723653px; }
+#person37 { width:86.0232526704263px; height:17.2046505340853px; font-size:4.30116263352131px; }
+#person57 { width:93.38094023943px; height:18.676188047886px; font-size:4.6690470119715px; }
+#person63 { width:112.071405808975px; height:22.414281161795px; font-size:5.60357029044876px; }
+#person59 { width:112.249721603218px; height:22.4499443206436px; font-size:5.61248608016091px; }
+#person31 { width:114.891252930761px; height:22.9782505861521px; font-size:5.74456264653803px; }
+#person56 { width:119.498953970317px; height:23.8997907940634px; font-size:5.97494769851586px; }
+#person38 { width:130.690474021636px; height:26.1380948043273px; font-size:6.53452370108182px; }
+#person45 { width:146.287388383278px; height:29.2574776766556px; font-size:7.3143694191639px; }
+#person42 { width:169.941166289984px; height:33.9882332579968px; font-size:8.4970583144992px; }
+#person55 { width:223.606797749979px; height:44.7213595499958px; font-size:11.1803398874989px; }
+#person49 { width:225.388553391693px; height:45.0777106783386px; font-size:11.2694276695846px; }
+#person40 { width:228.035085019828px; height:45.6070170039655px; font-size:11.4017542509914px; }
+#person32 { width:233.238075793812px; height:46.6476151587624px; font-size:11.6619037896906px; }
+#person50 { width:247.38633753706px; height:49.4772675074119px; font-size:12.369316876853px; }
+#person54 { width:263.058928759318px; height:52.6117857518636px; font-size:13.1529464379659px; }
+#person69 { width:45.5192267069642px; height:9.10384534139283px; font-size:2.27596133534821px; }
+#person71 { width:47.0319040652194px; height:9.40638081304388px; font-size:2.35159520326097px; }
+#person68 { width:50.5173237612604px; height:10.1034647522521px; font-size:2.52586618806302px; }
+#person73 { width:54.3323108288245px; height:10.8664621657649px; font-size:2.71661554144122px; }
+#person72 { width:54.9181208709839px; height:10.9836241741968px; font-size:2.7459060435492px; }
+#person64 { width:68.7022561492707px; height:13.7404512298541px; font-size:3.43511280746353px; }
+#person70 { width:69.5701085237043px; height:13.9140217047409px; font-size:3.47850542618522px; }
+#person66 { width:82.7042925125413px; height:16.5408585025083px; font-size:4.13521462562707px; }
+#person67 { width:90.3327183250897px; height:18.0665436650179px; font-size:4.51663591625449px; }
+#person65 { width:157.987341265052px; height:31.5974682530104px; font-size:7.8993670632526px; }
+#person74 { width:447.660585711988px; height:89.5321171423976px; font-size:22.3830292855994px; }
+#person75 { width:456.508488420533px; height:91.3016976841066px; font-size:22.8254244210267px; }
+#person91 { width:66.332495807108px; height:13.2664991614216px; font-size:3.3166247903554px; }
+#person82 { width:86.0232526704263px; height:17.2046505340853px; font-size:4.30116263352131px; }
+#person84 { width:86.7179335547152px; height:17.343586710943px; font-size:4.33589667773576px; }
+#person89 { width:90.1110426085505px; height:18.0222085217101px; font-size:4.50555213042752px; }
+#person77 { width:130.384048104053px; height:26.0768096208106px; font-size:6.51920240520265px; }
+#person85 { width:152.315462117278px; height:30.4630924234556px; font-size:7.61577310586391px; }
+#person81 { width:220.907220343745px; height:44.181444068749px; font-size:11.0453610171873px; }
+#person87 { width:299.332590941915px; height:59.8665181883831px; font-size:14.9666295470958px; }
+#person86 { width:431.740662898458px; height:86.3481325796916px; font-size:21.5870331449229px; }
+#person90 { width:451.663591625449px; height:90.3327183250897px; font-size:22.5831795812724px; }
+#person79 { width:537.028863283902px; height:107.40577265678px; font-size:26.8514431641951px; }
+#person76 { width:583.438085832593px; height:116.687617166519px; font-size:29.1719042916296px; }
+#person83 { width:589.576118919347px; height:117.915223783869px; font-size:29.4788059459673px; }
+#person88 { width:709.929573971954px; height:141.985914794391px; font-size:35.4964786985977px; }
+#person80 { width:900px; height:2302.22222222222px; font-size:160.934769394311px; }
+#person78 { width:900px; height:3075.55555555556px; font-size:186.010752377383px; }
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<h1 style="font-size:45px">Press coverage of panama papers</h1>
+				<p>Which persons are mentioned in how many articles?</p>
+				<p style="font-size:14px">Press coverage was determined by the number of articles in Google News by searching for "panama papers <i>full name</i>".<br>Time: 2016-04-05 22:00</p>
+			</div>
+			<div class="box">
+				<h2>Country leaders named in panama papers</h2>
+				<div class="person" id="person9"><span class="name">Ahmad Ali al-Mirghani:</span> <span class="results">878 articles</span><br><span class="desc">(Former president of Sudan)</span></div>
+				<div class="person" id="person5"><span class="name">Ali Abu al-Ragheb:</span> <span class="results">945 articles</span><br><span class="desc">(Former prime minister of Jordan)</span></div>
+				<div class="person" id="person11"><span class="name">Pavlo Lazarenko:</span> <span class="results">1'110 articles</span><br><span class="desc">(Convicted former Ukraine prime minister)</span></div>
+				<div class="person" id="person6"><span class="name">Hamad bin Jassim bin Jaber Al Thani:</span> <span class="results">1'180 articles</span><br><span class="desc">(Former prime minister of Qatar)</span></div>
+				<div class="person" id="person8"><span class="name">Salman bin Abdulaziz bin Abdulrahman Al Saud:</span> <span class="results">1'240 articles</span><br><span class="desc">(King of Saudi Arabia)</span></div>
+				<div class="person" id="person10"><span class="name">Khalifa bin Zayed bin Sultan Al Nahyan:</span> <span class="results">1'670 articles</span><br><span class="desc">(UAE President, Abu Dhabi emir)</span></div>
+				<div class="person" id="person2"><span class="name">Bidzina Ivanishvili:</span> <span class="results">1'810 articles</span><br><span class="desc">(Former prime minister of Georgia)</span></div>
+				<div class="person" id="person7"><span class="name">Hamad bin Khalifa Al Thani:</span> <span class="results">1'870 articles</span><br><span class="desc">(Former Emir of Qatar)</span></div>
+				<div class="person" id="person4"><span class="name">Ayad Allawi:</span> <span class="results">2'040 articles</span><br><span class="desc">(Ex-prime minister of Iraq)</span></div>
+				<div class="person" id="person12"><span class="name">Petro Poroshenko:</span> <span class="results">21'100 articles</span><br><span class="desc">(President of Ukraine)</span></div>
+				<div class="person" id="person3"><span class="name">Sigmundur Davíð Gunnlaugsson:</span> <span class="results">87'700 articles</span><br><span class="desc">(Iceland's prime minister)</span></div>
+				<div class="person" id="person1"><span class="name">Mauricio Macri:</span> <span class="results">172'000 articles</span><br><span class="desc">(President of Argentina)</span></div>
+				<span class="clearfix"></span>
+			</div>
+			<div class="box">
+				<h2>Named relatives/associates of country leaders</h2>
+				<div class="person" id="person28"><span class="name">Jean-Claude N’Da Ametchi:</span> <span class="results">310 articles</span><br><span class="desc">(Associate of Cote d'Ivoire's former president)</span></div>
+				<div class="person" id="person24"><span class="name">Mohd Nazifuddin bin Mohd Najib:</span> <span class="results">452 articles</span><br><span class="desc">(Son of Malaysia's prime minister)</span></div>
+				<div class="person" id="person13"><span class="name">Prime Minister Ilham Aliyev's wife, children and sister:</span> <span class="results">469 articles</span><br><span class="desc">(Azerbaijan's first family)</span></div>
+				<div class="person" id="person29"><span class="name">Clive Khulubuse Zuma:</span> <span class="results">637 articles</span><br><span class="desc">(Nephew of South African president)</span></div>
+				<div class="person" id="person22"><span class="name">Mariam Safdar, Hasan and Hussain Nawaz Sharif:</span> <span class="results">762 articles</span><br><span class="desc">(Children of Pakistan's prime minister)</span></div>
+				<div class="person" id="person18"><span class="name">Rami and Hafez Makhlouf:</span> <span class="results">873 articles</span><br><span class="desc">(Cousins of Syrian President Bashar Assad)</span></div>
+				<div class="person" id="person16"><span class="name">Arkady and Boris Rotenberg:</span> <span class="results">1'150 articles</span><br><span class="desc">(Childhood friends of Russian President Putin)</span></div>
+				<div class="person" id="person23"><span class="name">John Addo Kufuor:</span> <span class="results">1'550 articles</span><br><span class="desc">(Son of Ghana's former president)</span></div>
+				<div class="person" id="person20"><span class="name">Alaa Mubarak:</span> <span class="results">1'560 articles</span><br><span class="desc">(Son of former Egyptian president)</span></div>
+				<div class="person" id="person15"><span class="name">Li Xiaolin:</span> <span class="results">1'900 articles</span><br><span class="desc">(Daughter of former Chinese Premier)</span></div>
+				<div class="person" id="person30"><span class="name">Mamadie Touré:</span> <span class="results">1'970 articles</span><br><span class="desc">(Widow of Guinea's former dictator)</span></div>
+				<div class="person" id="person21"><span class="name">Mounir Majidi:</span> <span class="results">2'080 articles</span><br><span class="desc">(Personal secretary to the King of Morocco)</span></div>
+				<div class="person" id="person14"><span class="name">Deng Jiagui:</span> <span class="results">2'690 articles</span><br><span class="desc">(Brother in law of China President)</span></div>
+				<div class="person" id="person17"><span class="name">Sergey Roldugin:</span> <span class="results">12'300 articles</span><br><span class="desc">(Close friend of Russian President Vladimir Putin)</span></div>
+				<div class="person" id="person27"><span class="name">Pilar de Borbón:</span> <span class="results">14'500 articles</span><br><span class="desc">(Former king of Spain's sister)</span></div>
+				<div class="person" id="person26"><span class="name">Juan Armando Hinojosa:</span> <span class="results">14'900 articles</span><br><span class="desc">(Favorite contractor of Mexico's president)</span></div>
+				<div class="person" id="person25"><span class="name">Daniel Muñoz:</span> <span class="results">41'200 articles</span><br><span class="desc">(Aide to former Argentine presidents Kirchner)</span></div>
+				<div class="person" id="person19"><span class="name">Ian Cameron:</span> <span class="results">74'000 articles</span><br><span class="desc">(Father of British prime minister)</span></div>
+				<span class="clearfix"></span>
+			</div>
+			<div class="box">
+				<h2>Named Politicians/public officials</h2>
+				<div class="person" id="person61"><span class="name">Attan Shansonga:</span> <span class="results">4 articles</span><br><span class="desc">(Former Zambia ambassador to the United States)</span></div>
+				<div class="person" id="person35"><span class="name">Nurali Aliyev:</span> <span class="results">6 articles</span><br><span class="desc">(Former deputy mayor of Kazakhstan capital)</span></div>
+				<div class="person" id="person58"><span class="name">Bruno Jean-Richard Itoua:</span> <span class="results">8 articles</span><br><span class="desc">(Head of national oil company)</span></div>
+				<div class="person" id="person60"><span class="name">Emmanuel Ndahiro:</span> <span class="results">352 articles</span><br><span class="desc">(Former Rwanda intelligence chief)</span></div>
+				<div class="person" id="person36"><span class="name">Riccardo Francolini:</span> <span class="results">435 articles</span><br><span class="desc">(Headed Panama state owned bank)</span></div>
+				<div class="person" id="person39"><span class="name">José Maria Botelho de Vasconcelos:</span> <span class="results">481 articles</span><br><span class="desc">(Angolas minister of petroleum)</span></div>
+				<div class="person" id="person34"><span class="name">Jaynet Désirée Kabila Kyungu:</span> <span class="results">511 articles</span><br><span class="desc">(Member, DRC parliament)</span></div>
+				<div class="person" id="person33"><span class="name">Stavros Papastavrou:</span> <span class="results">537 articles</span><br><span class="desc">(Advised former Greek prime minister)</span></div>
+				<div class="person" id="person51"><span class="name">Mohammad bin Naif bin Abdulaziz Al-Saud:</span> <span class="results">594 articles</span><br><span class="desc">(Saudi crown prince)</span></div>
+				<div class="person" id="person48"><span class="name">Zsolt Horváth:</span> <span class="results">628 articles</span><br><span class="desc">(Former member Hungarian Assembly)</span></div>
+				<div class="person" id="person52"><span class="name">Pamela Sharples:</span> <span class="results">675 articles</span><br><span class="desc">(Baroness and lifetime member of U.K. Parliament)</span></div>
+				<div class="person" id="person41"><span class="name">Ang Vong Vathana:</span> <span class="results">703 articles</span><br><span class="desc">(Cambodia's minister of justice)</span></div>
+				<div class="person" id="person47"><span class="name">Galo Chiriboga:</span> <span class="results">993 articles</span><br><span class="desc">(Long-time, high-ranking Ecuadoran official)</span></div>
+				<div class="person" id="person46"><span class="name">João Lyra:</span> <span class="results">1'030 articles</span><br><span class="desc">(Once Brazil's richest member of Parliament)</span></div>
+				<div class="person" id="person44"><span class="name">Ólöf Nordal:</span> <span class="results">1'050 articles</span><br><span class="desc">(Iceland's Interior Minister)</span></div>
+				<div class="person" id="person62"><span class="name">Víctor Cruz Weffer:</span> <span class="results">1'440 articles</span><br><span class="desc">(Former commander-in-chief, Venezuelan Armed Forces)</span></div>
+				<div class="person" id="person53"><span class="name">Michael Ashcroft:</span> <span class="results">1'590 articles</span><br><span class="desc">(Former Member UK House of Lords)</span></div>
+				<div class="person" id="person43"><span class="name">Bjarni Benediktsson:</span> <span class="results">1'810 articles</span><br><span class="desc">(Iceland's minister of finance)</span></div>
+				<div class="person" id="person37"><span class="name">César Almeyda:</span> <span class="results">1'850 articles</span><br><span class="desc">(Former head of Peruvian intelligence)</span></div>
+				<div class="person" id="person57"><span class="name">Ian Kirby:</span> <span class="results">2'180 articles</span><br><span class="desc">(Senior judge in Botswana)</span></div>
+				<div class="person" id="person63"><span class="name">Anurag Kejriwal:</span> <span class="results">3'140 articles</span><br><span class="desc">(Former head Delhi branch of political party)</span></div>
+				<div class="person" id="person59"><span class="name">James Ibori:</span> <span class="results">3'150 articles</span><br><span class="desc">(Former Governor of Nigeria's Delta state)</span></div>
+				<div class="person" id="person31"><span class="name">Mohammad Mustafa:</span> <span class="results">3'300 articles</span><br><span class="desc">(Confidant to Palestinian Authority president)</span></div>
+				<div class="person" id="person56"><span class="name">Alfredo Ovalle Rodríguez:</span> <span class="results">3'570 articles</span><br><span class="desc">(Close associate of Chilean intelligence agency official)</span></div>
+				<div class="person" id="person38"><span class="name">Abdeslam Bouchouareb:</span> <span class="results">4'270 articles</span><br><span class="desc">(Algeria's Minister of Industry and Mines)</span></div>
+				<div class="person" id="person45"><span class="name">Konrad Mizzi:</span> <span class="results">5'350 articles</span><br><span class="desc">(Malta's minister of energy and health)</span></div>
+				<div class="person" id="person42"><span class="name">Jérôme Cahuzac:</span> <span class="results">7'220 articles</span><br><span class="desc">(Former government minister in France)</span></div>
+				<div class="person" id="person55"><span class="name">Jesús Villanueva:</span> <span class="results">12'500 articles</span><br><span class="desc">(Venezuelan oil company executive)</span></div>
+				<div class="person" id="person49"><span class="name">Kalpana Rawal:</span> <span class="results">12'700 articles</span><br><span class="desc">(Deputy chief justice of Kenya's Supreme Court)</span></div>
+				<div class="person" id="person40"><span class="name">Néstor Grindetti:</span> <span class="results">13'000 articles</span><br><span class="desc">(Former Buenos Aires finance minister)</span></div>
+				<div class="person" id="person32"><span class="name">Pedro Delgado:</span> <span class="results">13'600 articles</span><br><span class="desc">(Former Governor of Ecuador's Central Bank)</span></div>
+				<div class="person" id="person50"><span class="name">Paweł Piskorski:</span> <span class="results">15'300 articles</span><br><span class="desc">(Former Warsaw mayor; former member EU parliament)</span></div>
+				<div class="person" id="person54"><span class="name">Michael Mates:</span> <span class="results">17'300 articles</span><br><span class="desc">(Member of British Parliament)</span></div>
+				<span class="clearfix"></span>
+			</div>
+			<div class="box">
+				<h2>Named Relatives/associates of politicians/public officials</h2>
+				<div class="person" id="person69"><span class="name">Carlos Gutiérrez Robayo:</span> <span class="results">518 articles</span><br><span class="desc">(Brother-in-law of Bogota's mayor)</span></div>
+				<div class="person" id="person71"><span class="name">Micaela Domecq Solís-Beaumont:</span> <span class="results">553 articles</span><br><span class="desc">(Wife of Spain's agriculture minister)</span></div>
+				<div class="person" id="person68"><span class="name">César Rosenthal:</span> <span class="results">638 articles</span><br><span class="desc">(Son of Honduran vice president)</span></div>
+				<div class="person" id="person73"><span class="name">Javier Molina Bonilla:</span> <span class="results">738 articles</span><br><span class="desc">(Former adviser to Ecuador's spy agency)</span></div>
+				<div class="person" id="person72"><span class="name">Patrick Henri Devillers:</span> <span class="results">754 articles</span><br><span class="desc">(Business partner of Chinese politician's wife)</span></div>
+				<div class="person" id="person64"><span class="name">Jasmine Li:</span> <span class="results">1'180 articles</span><br><span class="desc">(Grandchild of high-ranking Chinese Communist official)</span></div>
+				<div class="person" id="person70"><span class="name">Mamadou Pouye:</span> <span class="results">1'210 articles</span><br><span class="desc">(Arrested in Senegal alongside ex-minister)</span></div>
+				<div class="person" id="person66"><span class="name">Kojo Annan:</span> <span class="results">1'710 articles</span><br><span class="desc">(Son of former United Nations secretary general)</span></div>
+				<div class="person" id="person67"><span class="name">Giuseppe Donaldo Nicosia:</span> <span class="results">2'040 articles</span><br><span class="desc">(Charged in fraud along with Italian senator)</span></div>
+				<div class="person" id="person65"><span class="name">Idalécio de Oliveira:</span> <span class="results">6'240 articles</span><br><span class="desc">(Linked to suspected bribe paid to Brazilian legislative leader)</span></div>
+				<span class="clearfix"></span>
+			</div>
+			<div class="box">
+				<h2>Founders of "Mossack Fonseca &amp; Co."</h2>
+				<div class="person" id="person74"><span class="name">Jürgen Mossack:</span> <span class="results">50'100 articles</span><br><span class="desc">(Founder)</span></div>
+				<div class="person" id="person75"><span class="name">Ramón Fonseca:</span> <span class="results">52'100 articles</span><br><span class="desc">(Founder)</span></div>
+				<span class="clearfix"></span>
+			</div>
+			<div class="box">
+				<h2>Country leaders that are NOT named in the panama papers, but their relatives/associates</h2>
+				<div class="person" id="person91"><span class="name">Lansana Conté:</span> <span class="results">1'100 articles</span><br><span class="desc">(Former president of Guinea)</span></div>
+				<div class="person" id="person82"><span class="name">Mohammed VI of Morocco:</span> <span class="results">1'850 articles</span><br><span class="desc">(King of Morocco)</span></div>
+				<div class="person" id="person84"><span class="name">John Kufuor:</span> <span class="results">1'880 articles</span><br><span class="desc">(Former president of Ghana)</span></div>
+				<div class="person" id="person89"><span class="name">Laurent Gbagbo:</span> <span class="results">2'030 articles</span><br><span class="desc">(Former president of Cote d'Ivoire)</span></div>
+				<div class="person" id="person77"><span class="name">Li Peng:</span> <span class="results">4'250 articles</span><br><span class="desc">(Former Premier of China)</span></div>
+				<div class="person" id="person85"><span class="name">Najib Razak:</span> <span class="results">5'800 articles</span><br><span class="desc">(Prime minister of Malaysia)</span></div>
+				<div class="person" id="person81"><span class="name">Hosni Mubarak:</span> <span class="results">12'200 articles</span><br><span class="desc">(Former president of Egyptian )</span></div>
+				<div class="person" id="person87"><span class="name">Enrique Peña Nieto:</span> <span class="results">22'400 articles</span><br><span class="desc">(President of Mexico)</span></div>
+				<div class="person" id="person86"><span class="name">Néstor Kirchner:</span> <span class="results">46'600 articles</span><br><span class="desc">(Former president of Argentine)</span></div>
+				<div class="person" id="person90"><span class="name">Jacob Zuma:</span> <span class="results">51'000 articles</span><br><span class="desc">(President of South African)</span></div>
+				<div class="person" id="person79"><span class="name">Bashar Assad:</span> <span class="results">72'100 articles</span><br><span class="desc">(President of Syria)</span></div>
+				<div class="person" id="person76"><span class="name">Xi Jinping:</span> <span class="results">85'100 articles</span><br><span class="desc">(President of China)</span></div>
+				<div class="person" id="person83"><span class="name">Nawaz Sharif:</span> <span class="results">86'900 articles</span><br><span class="desc">(Prime minister of Pakistan)</span></div>
+				<div class="person" id="person88"><span class="name">Juan Carlos:</span> <span class="results">126'000 articles</span><br><span class="desc">(Former king of Spain)</span></div>
+				<div class="person" id="person80"><span class="name">David Cameron:</span> <span class="results">2'590'000 articles</span><br><span class="desc">(Prime minister of UK )</span></div>
+				<div class="person" id="person78"><span class="name">Vladimir Putin:</span> <span class="results">3'460'000 articles</span><br><span class="desc">(President of Russia)</span></div>
+				<span class="clearfix"></span>
+			</div>
+		</div>
+	</body>
+</html>
